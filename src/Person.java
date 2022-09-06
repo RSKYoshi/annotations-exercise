@@ -14,6 +14,6 @@ public abstract class Person {
         return String.format("%s %s", firstName, lastName);
     }
 
-    @SuppressWarnings({""})
+
     public abstract String sortName();
 }
